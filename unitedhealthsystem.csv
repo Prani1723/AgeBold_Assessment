@@ -1,7 +1,0 @@
-member_id;first_name;last_name;date_of_birth;email;phone
-RH1001;andrew;wilson;1979-11-02;andrew.wilson@uhs.org;402-555-1298
-RH1002;sophia;martinez;03/18/1986;sophia.martinez@uhs.org;4025558877
-;daniel;choi;1982-07-09;daniel.choi@uhs.org;402-555-9911
-RH1004;emily;thompson;invalid_date;emily.thompson@uhs.org;402-555-4412
-RH1005;mark;reynolds;1954-05-21;mark.reynolds@uhs.org;402-55-8899
-
