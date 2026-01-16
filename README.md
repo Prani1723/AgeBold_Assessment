@@ -190,7 +190,7 @@ The resulting unified and reject outputs clearly demonstrate the pipeline’s ab
 _The Outputs folder highlights the differences in unified and rejected records between the two source partners and the third partner._
 
 
-## **8.Design Decisions & Rationale**
+## **8.Design Decisions & Logic**
 
 - Single configuration file for all partners to reflect real-world ingestion framework
 - Enabled flag support to control partner execution without removing config
