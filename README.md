@@ -6,23 +6,24 @@ The solution focuses on clarity, extensibility, and data quality, reflecting how
 
 ## **1. Project Structure**
 ## 
+
 eligibility-pipeline/
 
-│
+└──
 
 ├── notebooks/
 
-│   ├── pipeline_runner.ipynb          # Orchestrates and runs the pipeline
+│   └── 01_config_loader.ipynb         # partner configurations and loading
 
-│   ├── readers.ipynb                  # Spark readers (config-driven)
+│   └── 02_io_readers_writers.ipynb                 # Spark readers and Output writers
 
-│   ├── transformations.ipynb          # Standardization logic
+│   └── transformations_and_validations.ipynb          # Standardization logic AND Core validation rules
 
-│   ├── validations.ipynb              # Core validation rules
+│   └── pipeline_runner.ipynb          # Orchestrates and runs the pipeline
 
-│   ├── writers.ipynb                  # Output writers
+├── Outputs/
 
-│   ├── two_source_results.ipynb        # ACME + Better Care results
+│   └── two_source_results.ipynb        # ACME + Better Care results
 
 │   └── third_partner_demo.ipynb        # Extensibility & validation demo
 
