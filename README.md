@@ -23,9 +23,9 @@ eligibility-pipeline/
 
 ├── Outputs/
 
-│   └── two_source_results.ipynb        # ACME + Better Care results
+│   └── TwoSourcePartner_tables.ipynb       # ACME + Better Care results
 
-│   └── third_partner_demo.ipynb        # Extensibility & validation demo
+│   └── ThirdPartner_Tables.ipynb       # Extensibility & validation demo
 
 │
 
@@ -33,9 +33,11 @@ eligibility-pipeline/
 
 │   └── partners.json                  # Partner configuration file
 
-│
+├── config/
 
-└── README.md
+│   └── acme.txt
+    └── better_care.csv
+    └── unitedhealthsystem.csv
 
 
 ## **2. What Was Built**
